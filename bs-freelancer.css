@@ -1,0 +1,22 @@
+header{
+    height: 100px;
+    background-color: red;
+}
+
+*{
+    border: 1px dashed black;
+}
+.height-400{
+    min-height: 400px;
+}
+.height-200{
+    min-height: 200px;
+}
+.height-100{
+    min-height: 100px;
+}
+
+.bgcolorgreen{
+    background-color: green;
+}
+
