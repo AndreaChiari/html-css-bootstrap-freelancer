@@ -36,19 +36,3 @@ header{
 .bgcolorred{
     background-color: red;
 }
-
-/* mediaquery */
-
-@media (min-width: 768px){
-.col-md-6 {
-    flex: 0 0 auto;
-    width: calc(50% - 0.5rem);
-}
-}
-
-@media (min-width: 1200px){
-.col-md-6 {
-    flex: 0 0 auto;
-    width: calc(33.33333333% - 0.5rem);
-}
-}
