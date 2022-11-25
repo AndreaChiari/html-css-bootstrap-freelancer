@@ -1,14 +1,12 @@
 
 header{
     height: 100px;
-    background-color: red;
+    background-color: rgb(44,62,80);
 }
-
 
 /* utilities */
-*{
-    border: 1px dashed black;
-}
+
+
 .height-600{
     min-height: 600px;
 }
@@ -28,11 +26,14 @@ header{
 /* colors */
 
 .bgcolorlightblue{
-    background-color: lightblue;
+    background-color: rgb(44,62,80);
 }
 .bgcolorgreen{
-    background-color: green;
+    background-color: rgb(26,188,156);
 }
 .bgcolorred{
     background-color: red;
+}
+.colorwhite{
+    color: white;
 }
