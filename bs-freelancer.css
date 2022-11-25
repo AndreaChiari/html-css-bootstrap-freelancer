@@ -4,9 +4,50 @@ header{
     background-color: rgb(44,62,80);
 }
 
+figure{
+    height: 100px;
+    width: 200px;
+}
+
+.star{
+    height: 100px;
+    width: 50px;
+}
+
+h1:before,h1:after{
+    content: "";
+    border-bottom: 3px solid white;
+    margin: auto;
+    width: 27%;
+}
+
+h3:before,h3:after{
+    content: "";
+    border-bottom: 3px solid black;
+    margin: auto;
+    width: 27%;
+}
+
+#colorblack{
+    color: black;
+}
 /* utilities */
 
+.width100{
+    width: 300px;
+}
 
+.invert{
+    filter: invert(1);
+}
+
+span{
+    color: white;
+}
+.margin-bottom120{
+    margin-bottom: 120px;
+
+}
 .height-600{
     min-height: 600px;
 }
@@ -33,7 +74,4 @@ header{
 }
 .bgcolorred{
     background-color: red;
-}
-.colorwhite{
-    color: white;
 }
