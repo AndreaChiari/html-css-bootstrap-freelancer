@@ -47,6 +47,14 @@ h3:before,h3:after{
     font-size: 1.3rem;  
 }
 
+.brands{
+    gap: 10px;
+}
+.rounded-circle{
+    padding: 20px;
+    line-height: 10px;
+}
+
 #noborder{
     border-left: none;
     border-right: none;
