@@ -31,7 +31,29 @@ h3:before,h3:after{
 #colorblack{
     color: black;
 }
+
+
+/* container */
+
+.standard-container{
+    max-width: 540px;
+    margin: auto;
+}
+
 /* utilities */
+
+.form-control{
+    padding:0.5rem 1rem;
+    font-size: 1.3rem;  
+}
+
+#noborder{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0;
+}
+
 
 .width100{
     width: 300px;
@@ -74,4 +96,12 @@ span{
 }
 .bgcolorred{
     background-color: red;
+}
+
+/* media query */
+
+@media screen and (max-width: 600px){
+    .standard-container{
+        max-width: 350px;
+    }
 }
