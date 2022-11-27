@@ -28,8 +28,8 @@ h3:before,h3:after{
     width: 27%;
 }
 
-#colorblack{
-    color: black;
+footer{
+background-color: rgb(44,62,80);
 }
 
 
@@ -47,12 +47,21 @@ h3:before,h3:after{
     font-size: 1.3rem;  
 }
 
+
 .brands{
     gap: 10px;
+    font-size: 20px;
 }
-.rounded-circle{
-    padding: 20px;
-    line-height: 10px;
+
+.social-container{
+    text-align:center;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #909090;
+	border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #noborder{
@@ -76,7 +85,7 @@ span{
 }
 .margin-bottom120{
     margin-bottom: 120px;
-
+    
 }
 .height-600{
     min-height: 600px;
@@ -97,13 +106,19 @@ span{
 /* colors */
 
 .bgcolorlightblue{
-    background-color: rgb(44,62,80);
+    background-color: rgb(58,84,109);
 }
 .bgcolorgreen{
     background-color: rgb(26,188,156);
 }
 .bgcolorred{
     background-color: red;
+}
+.colorgreen{
+    color: rgb(26,188,156);
+}
+#colorblack{
+    color: black;
 }
 
 /* media query */
